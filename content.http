@@ -1,0 +1,24 @@
+
+### find all content
+GET http://localhost:8080/api/content
+
+### get content by id
+GET  http://localhost:8080/api/content
+
+### create new content
+POST http://localhost:8080/api/content
+Content-Type: application/json
+
+{
+  "id": null,
+  "title": "abc ",
+  "desc": "description is MYSTERY second my post",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dateCreated": "2023-04-14T19:22:40.5768429",
+  "dateUpdated": null,
+  "url": ""
+}
+
+### delete by id
+DELETE http://localhost:8080/api/content/1
