@@ -1,2 +1,1 @@
-# content-calendar-learning-spring-boot
-study Project
+Project contain foundational knowledge of Spring Boot and how to hit the ground running with the Spring Framework. Use the key concepts of the Spring Framework such as Beans, Application Context, Inversion of Control, Dependency Injection, and more. Learn how to build a new Spring Boot application and utilize some of the most popular projects of the Spring ecosystem like Spring MVC and Spring Data. Able to create a REST API with Spring Boot and be familiar with deploying your application to production.

@@ -26,19 +26,20 @@ public class Application {
 
 		SpringApplication.run(Application.class, args);
 
+
 	}
-	@Bean
-	CommandLineRunner commandLineRunner(ContentRepository repository){
-		return abc -> {
-			Content content = new Content(null,
-					"hello it's me",
-					"without me i am you",
-					Status.IDEA,
-					Type.ARTICLE,
-					LocalDateTime.now(),
-					null,
-					"");
-			repository.save(content);
-		};
-	}
+//	@Bean
+//	CommandLineRunner commandLineRunner(ContentRepository repository){
+//		return abc -> {
+//			Content content = new Content(null,
+//					"hello it's me",
+//					"without me i am you",
+//					Status.IDEA,
+//					Type.ARTICLE,
+//					LocalDateTime.now(),
+//					null,
+//					"");
+//			repository.save(content);
+//		};
+//	}
 }
